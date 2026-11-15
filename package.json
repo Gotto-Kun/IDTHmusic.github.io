@@ -1,0 +1,17 @@
+{
+  "name": "idth-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Сайт музыканта IDTH: публичная страница + админ-панель (посты, ссылки, оформление)",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node tests/smoke.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0"
+  },
+  "dependencies": {
+    "playwright": "^1.65.1"
+  }
+}
